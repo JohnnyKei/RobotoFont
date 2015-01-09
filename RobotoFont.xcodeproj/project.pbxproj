@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAC329BC1A5F5F4300718880 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC329BB1A5F5F4300718880 /* main.m */; };
+		AAC329BF1A5F5F4300718880 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC329BE1A5F5F4300718880 /* AppDelegate.m */; };
+		AAC329C21A5F5F4300718880 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC329C11A5F5F4300718880 /* ViewController.m */; };
+		AAC329C51A5F5F4300718880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC329C31A5F5F4300718880 /* Main.storyboard */; };
+		AAC329C71A5F5F4300718880 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC329C61A5F5F4300718880 /* Images.xcassets */; };
+		AAC329CA1A5F5F4300718880 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC329C81A5F5F4300718880 /* LaunchScreen.xib */; };
+		AAC329D61A5F5F4300718880 /* RobotoFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC329D51A5F5F4300718880 /* RobotoFontTests.m */; };
+		AAC329F21A5F5F9600718880 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329E01A5F5F9600718880 /* Roboto-Black.ttf */; };
+		AAC329F31A5F5F9600718880 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329E11A5F5F9600718880 /* Roboto-BlackItalic.ttf */; };
+		AAC329F41A5F5F9600718880 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329E21A5F5F9600718880 /* Roboto-Bold.ttf */; };
+		AAC329F51A5F5F9600718880 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329E31A5F5F9600718880 /* Roboto-BoldItalic.ttf */; };
+		AAC329F61A5F5F9600718880 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329E41A5F5F9600718880 /* Roboto-Italic.ttf */; };
+		AAC329F71A5F5F9600718880 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329E51A5F5F9600718880 /* Roboto-Light.ttf */; };
+		AAC329F81A5F5F9600718880 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329E61A5F5F9600718880 /* Roboto-LightItalic.ttf */; };
+		AAC329F91A5F5F9600718880 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329E71A5F5F9600718880 /* Roboto-Medium.ttf */; };
+		AAC329FA1A5F5F9600718880 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329E81A5F5F9600718880 /* Roboto-MediumItalic.ttf */; };
+		AAC329FB1A5F5F9600718880 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329E91A5F5F9600718880 /* Roboto-Regular.ttf */; };
+		AAC329FC1A5F5F9600718880 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329EA1A5F5F9600718880 /* Roboto-Thin.ttf */; };
+		AAC329FD1A5F5F9600718880 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329EB1A5F5F9600718880 /* Roboto-ThinItalic.ttf */; };
+		AAC329FE1A5F5F9600718880 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329EC1A5F5F9600718880 /* RobotoCondensed-Bold.ttf */; };
+		AAC329FF1A5F5F9600718880 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329ED1A5F5F9600718880 /* RobotoCondensed-BoldItalic.ttf */; };
+		AAC32A001A5F5F9600718880 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329EE1A5F5F9600718880 /* RobotoCondensed-Italic.ttf */; };
+		AAC32A011A5F5F9600718880 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329EF1A5F5F9600718880 /* RobotoCondensed-Light.ttf */; };
+		AAC32A021A5F5F9600718880 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329F01A5F5F9600718880 /* RobotoCondensed-LightItalic.ttf */; };
+		AAC32A031A5F5F9600718880 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC329F11A5F5F9600718880 /* RobotoCondensed-Regular.ttf */; };
+		AAC32A061A5F61BB00718880 /* UIFont+RobotoFont.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC32A051A5F61BB00718880 /* UIFont+RobotoFont.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAC329D01A5F5F4300718880 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAC329AE1A5F5F4300718880 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAC329B51A5F5F4300718880;
+			remoteInfo = RobotoFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAC329B61A5F5F4300718880 /* RobotoFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobotoFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC329BA1A5F5F4300718880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC329BB1A5F5F4300718880 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAC329BD1A5F5F4300718880 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAC329BE1A5F5F4300718880 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAC329C01A5F5F4300718880 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAC329C11A5F5F4300718880 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAC329C41A5F5F4300718880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAC329C61A5F5F4300718880 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AAC329C91A5F5F4300718880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AAC329CF1A5F5F4300718880 /* RobotoFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RobotoFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC329D41A5F5F4300718880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC329D51A5F5F4300718880 /* RobotoFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RobotoFontTests.m; sourceTree = "<group>"; };
+		AAC329E01A5F5F9600718880 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		AAC329E11A5F5F9600718880 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		AAC329E21A5F5F9600718880 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		AAC329E31A5F5F9600718880 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		AAC329E41A5F5F9600718880 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		AAC329E51A5F5F9600718880 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		AAC329E61A5F5F9600718880 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		AAC329E71A5F5F9600718880 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		AAC329E81A5F5F9600718880 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		AAC329E91A5F5F9600718880 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		AAC329EA1A5F5F9600718880 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		AAC329EB1A5F5F9600718880 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		AAC329EC1A5F5F9600718880 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		AAC329ED1A5F5F9600718880 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		AAC329EE1A5F5F9600718880 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		AAC329EF1A5F5F9600718880 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		AAC329F01A5F5F9600718880 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		AAC329F11A5F5F9600718880 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		AAC32A041A5F61BB00718880 /* UIFont+RobotoFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+RobotoFont.h"; sourceTree = "<group>"; };
+		AAC32A051A5F61BB00718880 /* UIFont+RobotoFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+RobotoFont.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAC329B31A5F5F4300718880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC329CC1A5F5F4300718880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAC329AD1A5F5F4300718880 = {
+			isa = PBXGroup;
+			children = (
+				AAC329B81A5F5F4300718880 /* RobotoFont */,
+				AAC329D21A5F5F4300718880 /* RobotoFontTests */,
+				AAC329B71A5F5F4300718880 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAC329B71A5F5F4300718880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAC329B61A5F5F4300718880 /* RobotoFont.app */,
+				AAC329CF1A5F5F4300718880 /* RobotoFontTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAC329B81A5F5F4300718880 /* RobotoFont */ = {
+			isa = PBXGroup;
+			children = (
+				AAC329BD1A5F5F4300718880 /* AppDelegate.h */,
+				AAC329BE1A5F5F4300718880 /* AppDelegate.m */,
+				AAC329C01A5F5F4300718880 /* ViewController.h */,
+				AAC329C11A5F5F4300718880 /* ViewController.m */,
+				AAC32A041A5F61BB00718880 /* UIFont+RobotoFont.h */,
+				AAC32A051A5F61BB00718880 /* UIFont+RobotoFont.m */,
+				AAC329C31A5F5F4300718880 /* Main.storyboard */,
+				AAC329C61A5F5F4300718880 /* Images.xcassets */,
+				AAC329C81A5F5F4300718880 /* LaunchScreen.xib */,
+				AAC329B91A5F5F4300718880 /* Supporting Files */,
+			);
+			path = RobotoFont;
+			sourceTree = "<group>";
+		};
+		AAC329B91A5F5F4300718880 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAC329DF1A5F5F9600718880 /* RobotoTTF */,
+				AAC329BA1A5F5F4300718880 /* Info.plist */,
+				AAC329BB1A5F5F4300718880 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAC329D21A5F5F4300718880 /* RobotoFontTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAC329D51A5F5F4300718880 /* RobotoFontTests.m */,
+				AAC329D31A5F5F4300718880 /* Supporting Files */,
+			);
+			path = RobotoFontTests;
+			sourceTree = "<group>";
+		};
+		AAC329D31A5F5F4300718880 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAC329D41A5F5F4300718880 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAC329DF1A5F5F9600718880 /* RobotoTTF */ = {
+			isa = PBXGroup;
+			children = (
+				AAC329E01A5F5F9600718880 /* Roboto-Black.ttf */,
+				AAC329E11A5F5F9600718880 /* Roboto-BlackItalic.ttf */,
+				AAC329E21A5F5F9600718880 /* Roboto-Bold.ttf */,
+				AAC329E31A5F5F9600718880 /* Roboto-BoldItalic.ttf */,
+				AAC329E41A5F5F9600718880 /* Roboto-Italic.ttf */,
+				AAC329E51A5F5F9600718880 /* Roboto-Light.ttf */,
+				AAC329E61A5F5F9600718880 /* Roboto-LightItalic.ttf */,
+				AAC329E71A5F5F9600718880 /* Roboto-Medium.ttf */,
+				AAC329E81A5F5F9600718880 /* Roboto-MediumItalic.ttf */,
+				AAC329E91A5F5F9600718880 /* Roboto-Regular.ttf */,
+				AAC329EA1A5F5F9600718880 /* Roboto-Thin.ttf */,
+				AAC329EB1A5F5F9600718880 /* Roboto-ThinItalic.ttf */,
+				AAC329EC1A5F5F9600718880 /* RobotoCondensed-Bold.ttf */,
+				AAC329ED1A5F5F9600718880 /* RobotoCondensed-BoldItalic.ttf */,
+				AAC329EE1A5F5F9600718880 /* RobotoCondensed-Italic.ttf */,
+				AAC329EF1A5F5F9600718880 /* RobotoCondensed-Light.ttf */,
+				AAC329F01A5F5F9600718880 /* RobotoCondensed-LightItalic.ttf */,
+				AAC329F11A5F5F9600718880 /* RobotoCondensed-Regular.ttf */,
+			);
+			path = RobotoTTF;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAC329B51A5F5F4300718880 /* RobotoFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC329D91A5F5F4300718880 /* Build configuration list for PBXNativeTarget "RobotoFont" */;
+			buildPhases = (
+				AAC329B21A5F5F4300718880 /* Sources */,
+				AAC329B31A5F5F4300718880 /* Frameworks */,
+				AAC329B41A5F5F4300718880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RobotoFont;
+			productName = RobotoFont;
+			productReference = AAC329B61A5F5F4300718880 /* RobotoFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAC329CE1A5F5F4300718880 /* RobotoFontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC329DC1A5F5F4300718880 /* Build configuration list for PBXNativeTarget "RobotoFontTests" */;
+			buildPhases = (
+				AAC329CB1A5F5F4300718880 /* Sources */,
+				AAC329CC1A5F5F4300718880 /* Frameworks */,
+				AAC329CD1A5F5F4300718880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAC329D11A5F5F4300718880 /* PBXTargetDependency */,
+			);
+			name = RobotoFontTests;
+			productName = RobotoFontTests;
+			productReference = AAC329CF1A5F5F4300718880 /* RobotoFontTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAC329AE1A5F5F4300718880 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = kei;
+				TargetAttributes = {
+					AAC329B51A5F5F4300718880 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AAC329CE1A5F5F4300718880 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AAC329B51A5F5F4300718880;
+					};
+				};
+			};
+			buildConfigurationList = AAC329B11A5F5F4300718880 /* Build configuration list for PBXProject "RobotoFont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAC329AD1A5F5F4300718880;
+			productRefGroup = AAC329B71A5F5F4300718880 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAC329B51A5F5F4300718880 /* RobotoFont */,
+				AAC329CE1A5F5F4300718880 /* RobotoFontTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAC329B41A5F5F4300718880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC329FD1A5F5F9600718880 /* Roboto-ThinItalic.ttf in Resources */,
+				AAC329FC1A5F5F9600718880 /* Roboto-Thin.ttf in Resources */,
+				AAC32A021A5F5F9600718880 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				AAC329C51A5F5F4300718880 /* Main.storyboard in Resources */,
+				AAC329CA1A5F5F4300718880 /* LaunchScreen.xib in Resources */,
+				AAC329FF1A5F5F9600718880 /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				AAC32A001A5F5F9600718880 /* RobotoCondensed-Italic.ttf in Resources */,
+				AAC329F81A5F5F9600718880 /* Roboto-LightItalic.ttf in Resources */,
+				AAC329F41A5F5F9600718880 /* Roboto-Bold.ttf in Resources */,
+				AAC32A031A5F5F9600718880 /* RobotoCondensed-Regular.ttf in Resources */,
+				AAC32A011A5F5F9600718880 /* RobotoCondensed-Light.ttf in Resources */,
+				AAC329FA1A5F5F9600718880 /* Roboto-MediumItalic.ttf in Resources */,
+				AAC329F31A5F5F9600718880 /* Roboto-BlackItalic.ttf in Resources */,
+				AAC329C71A5F5F4300718880 /* Images.xcassets in Resources */,
+				AAC329F61A5F5F9600718880 /* Roboto-Italic.ttf in Resources */,
+				AAC329FE1A5F5F9600718880 /* RobotoCondensed-Bold.ttf in Resources */,
+				AAC329F51A5F5F9600718880 /* Roboto-BoldItalic.ttf in Resources */,
+				AAC329F91A5F5F9600718880 /* Roboto-Medium.ttf in Resources */,
+				AAC329FB1A5F5F9600718880 /* Roboto-Regular.ttf in Resources */,
+				AAC329F21A5F5F9600718880 /* Roboto-Black.ttf in Resources */,
+				AAC329F71A5F5F9600718880 /* Roboto-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC329CD1A5F5F4300718880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAC329B21A5F5F4300718880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC329C21A5F5F4300718880 /* ViewController.m in Sources */,
+				AAC329BF1A5F5F4300718880 /* AppDelegate.m in Sources */,
+				AAC32A061A5F61BB00718880 /* UIFont+RobotoFont.m in Sources */,
+				AAC329BC1A5F5F4300718880 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC329CB1A5F5F4300718880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC329D61A5F5F4300718880 /* RobotoFontTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAC329D11A5F5F4300718880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAC329B51A5F5F4300718880 /* RobotoFont */;
+			targetProxy = AAC329D01A5F5F4300718880 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAC329C31A5F5F4300718880 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC329C41A5F5F4300718880 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAC329C81A5F5F4300718880 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC329C91A5F5F4300718880 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAC329D71A5F5F4300718880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAC329D81A5F5F4300718880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAC329DA1A5F5F4300718880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RobotoFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAC329DB1A5F5F4300718880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RobotoFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAC329DD1A5F5F4300718880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RobotoFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RobotoFont.app/RobotoFont";
+			};
+			name = Debug;
+		};
+		AAC329DE1A5F5F4300718880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RobotoFontTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RobotoFont.app/RobotoFont";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAC329B11A5F5F4300718880 /* Build configuration list for PBXProject "RobotoFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC329D71A5F5F4300718880 /* Debug */,
+				AAC329D81A5F5F4300718880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC329D91A5F5F4300718880 /* Build configuration list for PBXNativeTarget "RobotoFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC329DA1A5F5F4300718880 /* Debug */,
+				AAC329DB1A5F5F4300718880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAC329DC1A5F5F4300718880 /* Build configuration list for PBXNativeTarget "RobotoFontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC329DD1A5F5F4300718880 /* Debug */,
+				AAC329DE1A5F5F4300718880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAC329AE1A5F5F4300718880 /* Project object */;
+}
